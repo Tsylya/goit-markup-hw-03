@@ -13,20 +13,23 @@
     --primary-white-color: #F5F5F5;
 }
 
+
 body {
     background-color:var(--primary-bg-color);
     color: var(--primary-text-color)
-
 }
 .list {
     list-style: none;
 }
-
 .logo {
     color: black
 }
 .accent {
     color:var(--accent-color)
+}
+.hat-button{
+    color: #FFFFFF;
+    background-color:var(--accent-color);
 }
 .site-nav .link {
     color:var(--title-text-color)
@@ -35,7 +38,6 @@ body {
 .site-nav .link:focus {
 color: var(--accent-color)
 }
-
 
 /* Навігація */
 .auth-nav .link{
