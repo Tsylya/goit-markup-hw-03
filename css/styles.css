@@ -1,0 +1,92 @@
+ /* цвет основного текста: #212121 */
+    
+/* вторичный цвет текста: #757575 */
+/* акцент: #2196F3 */
+/* белый цвет: #FFFFFF */
+/* цвет фона: #F5F5F5 */
+/* вторичный цвет фона: #F5F4FA */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #F5F5F5;
+}
+
+body {
+    background-color:var(--primary-bg-color);
+    color: var(--primary-text-color)
+
+}
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: black
+}
+.accent {
+    color:var(--accent-color)
+}
+.site-nav .link {
+    color:var(--title-text-color)
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: var(--accent-color)
+}
+
+
+/* Навігація */
+.auth-nav .link{
+color: var(--primary-text-color)
+}
+.auth-nav .link:hover, 
+.auth-nav link:focus{
+color: var(--accent-color);
+}
+
+.block, .block-title{
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+
+
+
+/* Переваги */
+.feature-list, .title{
+color: var(--title-text-color)
+}
+
+.example{
+    color: var(--primary-text-color)
+}
+
+
+/* Section */
+.section, .section-title{
+    color: var(--title-text-color)
+}
+
+/* Команда */
+.section-team{
+    background-color: #FFFFFF;
+}
+.nome{
+    color:var(--title-text-color);
+}
+.workplace{
+    color: var(--primary-text-color);
+}
+footer .logo{
+color: #FFFFFF
+}
+.down{
+    background-color: #2F303A;
+}
+.street{
+    color: #FFFFFF;
+}
+.info{
+  color: rgba(255, 255, 255, 0.6);
+}
