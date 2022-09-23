@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
+    <title>Studio</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -13,9 +16,9 @@
         <a href="./" class="logo link"><span class="accent">Web</span>Studio</a>
         <nav>            
             <ul class="site-nav list">
-                <li><a href="" class="link">Студія</a></li>
-                <li><a href="" class="link">Портфоліо</a></li>
-                <li><a href="" class="link">Контакти</a></li>
+                <li class="pages-item"><a href="" class="link">Студія</a></li>
+                <li class="pages-item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
+                <li class="pages-item"><a href="" class="link">Контакти</a></li>
             </ul>
             <ul class="auth-nav list">
                 <li><a href="" class="link">info@devstudio.com</a></li>
@@ -23,6 +26,8 @@
             </ul>
         </nav>
     </header>
+    <!-- Main content -->
+    <main>
     <!--Переваги-->
         <section class="block">
             <h1 class="block-title">Ефективні рішення для вашого бізнесу</h1>
@@ -36,15 +41,15 @@
             </li>
             <li>
                 <h3>ПУНКТУАЛЬНІСТЬ</h3>
-                <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                <p class="example">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
             </li>
             <li>
                 <h3>ПЛАНУВАННЯ</h3>
-                <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                <p class="example">Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
             <li>
                 <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                <p class="example">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
         </ul>
     </section>
@@ -64,51 +69,45 @@
         </ul>     
     </section>
     <!--Команда-->
-    <section>
+    <section class="section-background">
         <h1 class="section-title">Наша команда</h1>
         <ul class="list">
             <li>
                 <img src="./img/Primeiro.jpg" alt="" width="270">
-                <h3 class="nome">Ігор Дем'яненко</h3>
+                <h3 class="name">Ігор Дем'яненко</h3>
                 <p class="workplace">Product Designer</p>
             </li>
             <li>
                 <img src="./img/Segundo.jpg" alt="" width="270">
-                <h3 class="nome">Ольга Рєпіна</h3>
+                <h3 class="name">Ольга Рєпіна</h3>
                 <p class="workplace">Frontend Developer</p>
             </li>
             <li>
                 <img src="./img/Terceiro.jpg" alt="" width="270">
-                <h3 class="nome">Микола Тарасов</h3>
+                <h3 class="name">Микола Тарасов</h3>
                 <p class="workplace">Marketing</p>
             </li>
             <li>
                 <img src="./img/Quarto.jpg" alt="" width="270">
-                <h3 class="nome">Михайло Єрмаков</h3>
+                <h3 class="name">Михайло Єрмаков</h3>
                 <p class="workplace">UI Designer</p>
             </li>
         </ul>
     </section>
-    <!--Футер-->
-    <footer class="down">
-        <div>
-            <a href="./" class="footer logo"><span class="accent">Web</span>Studio</a>           
-                <ul class="list">
-                <li class="street">
-                    <address>
-                        м. Київ, пр-т Лесі Українки, 26
-                    </address>
-                    
-                </li>
-                <li>
-                    <a href="" class="info">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a href="" class="info">+38 096 111 11 11</a>
-                </li>
-            </ul> 
-        </div>
-    </footer>
+   </main>
 
+    <!-- Footer -->
+    <footer>
+    
+        <a href="" class="logo link"><span class="accent">Web</span>Studio</a>
+    
+        <address class="address">
+            <ul class="list">
+                <li><p>м. Київ, пр-т Лесі Українки, 26</p></li>
+                <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </address>
+    </footer>
 </body>
 </html>
